@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   
   spec.platform     = :ios, "13.0"
 
-  spec.source       = { :git => "git@github.com:byteark/byteark-player-sdk-ios.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:byteark/byteark-player-sdk-ios.git", :tag => "player-v#{spec.version}" }
   
   spec.ios.vendored_frameworks = "ByteArkPlayerSDK/ByteArkPlayerSDK.xcframework"
   
