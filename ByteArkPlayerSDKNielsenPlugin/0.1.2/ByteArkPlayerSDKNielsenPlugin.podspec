@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks = "ByteArkPlayerSDKNielsenPlugin/ByteArkPlayerSDKNielsenPlugin.xcframework"
 
-  spec.dependency "ByteArkPlayerSDK", "~> 0.2.1"
+  spec.dependency "ByteArkPlayerSDK", "~> 0.3.0"
   spec.dependency "NielsenAppSDK-XC", "~> 9.4.0.0"
 
 end

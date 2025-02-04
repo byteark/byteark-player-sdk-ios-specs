@@ -26,6 +26,6 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks = "ByteArkPlayerSDKAirplayPlugin/ByteArkPlayerSDKAirplayPlugin.xcframework"
 
-  spec.dependency "ByteArkPlayerSDK", "~> 0.2.1"
+  spec.dependency "ByteArkPlayerSDK", "~> 0.3.0"
 
 end
