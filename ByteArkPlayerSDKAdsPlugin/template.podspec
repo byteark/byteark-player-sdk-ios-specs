@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks = "ByteArkPlayerSDKAdsPlugin/ByteArkPlayerSDKAdsPlugin.xcframework"
 
-  spec.dependency "ByteArkPlayerSDK", "~> 0.6.0"
+  spec.dependency "ByteArkPlayerSDK", "~> 0.7.0"
   spec.dependency "GoogleAds-IMA-iOS-SDK", "~> 3.24.0"
 
 end

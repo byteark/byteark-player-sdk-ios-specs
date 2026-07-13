@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks = "ByteArkPlayerSDKLighthousePlugin/ByteArkPlayerSDKLighthousePlugin.xcframework"
 
-  spec.dependency "ByteArkPlayerSDK", "~> 0.6.0"
+  spec.dependency "ByteArkPlayerSDK", "~> 0.7.0"
   spec.dependency "LighthouseNativeSDK", "~> 0.2.14"
 
 end
